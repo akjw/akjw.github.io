@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
 
 class Main extends React.Component {
   render() {
@@ -63,23 +64,45 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h3><a href="https://streamlinersg.herokuapp.com/">Streamliner</a></h3>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          Project management application for long-term projects with deadline countdowns, multi-phase options and deliverables tracking.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Built with ReactJs, Node.js, Express and MongoDB
+          </p>
+          <h3><a href="https://lunchbuddysg.herokuapp.com/">Lunch Buddy</a></h3>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+          <p>
+          Scheduling application for making lunch appointments with other users. For people who dislike eating alone, or for those who need buddies for meal deals.
+          </p>
+          <p>
+            Built with Ruby on Rails, postgreSQL, AWS S3 and using Google Maps API.
+          </p>
+          <h3><a href="https://wrimo.herokuapp.com/">WriMo</a></h3>
+          <span className="image main">
+            <img src={pic04} alt="" />
+          </span>
+          <p>
+          Online repository for original written works. Built for writers seeking inspiration, feedback, or an audience.
+          </p>
+          <p>
+            Built with Node.js, Express, jQuery, MongoDB and sockets.io.
+          </p>
+          <h3><a href="https://akjw.github.io/Slime-Farm/">Slime Farm</a></h3>
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <p>
+          Web-based game inspired by whack-a mole, with multiple difficulty levels and scorekeeping.
+          </p>
+          <p>
+            Built with Javascript, HTML, and CSS.
           </p>
           {close}
         </article>
@@ -91,19 +114,39 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Contact</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            {/* <img src={pic03} alt="" /> */}
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Find me on the web:
           </p>
+          <ul className="icons">
+            <li>
+              <a
+                href="mailto:aseykoh@gmail.com"
+                className="icon fa-envelope-open"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/akjw"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/asey-koh"
+                className="icon fa-linkedin"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
           {close}
         </article>
 
