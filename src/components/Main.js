@@ -92,7 +92,7 @@ class Main extends React.Component {
           Online repository for original written works. Built for writers seeking inspiration, feedback, or an audience.
           </p>
           <p>
-            Built with Node.js, Express, jQuery, MongoDB and sockets.io.
+            Built with Node.js, Express, jQuery, MongoDB and socket.io.
           </p>
           <h3><a href="https://akjw.github.io/Slime-Farm/">Slime Farm</a></h3>
           <span className="image main">
