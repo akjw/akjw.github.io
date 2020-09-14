@@ -59,7 +59,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <h3><a href="https://streamlinersg.herokuapp.com/">Streamliner</a></h3>
+          <h3><a href="https://streamlinersg.herokuapp.com/" target="_blank">Streamliner</a></h3>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -88,7 +88,7 @@ class Main extends React.Component {
               </li>
           </ul>
          
-          <h3><a href="https://lunchbuddysg.herokuapp.com/">Lunch Buddy</a></h3>
+          <h3><a href="https://lunchbuddysg.herokuapp.com/" target="_blank">Lunch Buddy</a></h3>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -116,7 +116,7 @@ class Main extends React.Component {
                 </a>
               </li>
           </ul>
-          <h3><a href="https://wrimo.herokuapp.com/">WriMo</a></h3>
+          <h3><a href="https://wrimo.herokuapp.com/" target="_blank">WriMo</a></h3>
           <span className="image main">
             <img src={pic04} alt="" />
           </span>
@@ -144,7 +144,7 @@ class Main extends React.Component {
                 </a>
               </li>
           </ul>
-          <h3><a href="https://akjw.github.io/Slime-Farm/">Slime Farm</a></h3>
+          <h3><a href="https://akjw.github.io/Slime-Farm/" target="_blank">Slime Farm</a></h3>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
