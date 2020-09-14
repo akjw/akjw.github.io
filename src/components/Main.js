@@ -72,7 +72,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
                 <a
-                  href="https://streamlinersg.herokuapp.com/"
+                  href="https://streamlinersg.herokuapp.com/" target="_blank"
                   className="icon fa-desktop"
                 >
                   <span className="label">Demo</span>
@@ -80,7 +80,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://github.com/akjw/Streamliner"
+                  href="https://github.com/akjw/Streamliner" target="_blank"
                   className="icon fa-code"
                 >
                   <span className="label">Source Code</span>
@@ -101,7 +101,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
                 <a
-                  href="https://lunchbuddysg.herokuapp.com/"
+                  href="https://lunchbuddysg.herokuapp.com/" target="_blank"
                   className="icon fa-desktop"
                 >
                   <span className="label">Demo</span>
@@ -109,7 +109,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://github.com/akjw/lunch-buddy"
+                  href="https://github.com/akjw/lunch-buddy" target="_blank"
                   className="icon fa-code"
                 >
                   <span className="label">Source Code</span>
@@ -129,7 +129,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
                 <a
-                  href="https://wrimo.herokuapp.com/"
+                  href="https://wrimo.herokuapp.com/" target="_blank"
                   className="icon fa-desktop"
                 >
                   <span className="label">Demo</span>
@@ -137,7 +137,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://github.com/akjw/WriMo"
+                  href="https://github.com/akjw/WriMo" target="_blank"
                   className="icon fa-code"
                 >
                   <span className="label">Source Code</span>
@@ -157,7 +157,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
                 <a
-                  href="https://akjw.github.io/Slime-Farm/"
+                  href="https://akjw.github.io/Slime-Farm/" target="_blank"
                   className="icon fa-desktop"
                 >
                   <span className="label">Demo</span>
@@ -165,7 +165,7 @@ class Main extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://github.com/akjw/Slime-Farm"
+                  href="https://github.com/akjw/Slime-Farm" target="_blank"
                   className="icon fa-code"
                 >
                   <span className="label">Source Code</span>
@@ -200,7 +200,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/akjw"
+                href="https://github.com/akjw" target="_blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
@@ -208,7 +208,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/asey-koh"
+                href="https://www.linkedin.com/in/asey-koh" target="_blank"
                 className="icon fa-linkedin"
               >
                 <span className="label">GitHub</span>
