@@ -31,7 +31,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <p> Hello! I'm Asey, a Singapore-based software engineer with a background in education consulting and publishing. I'm passionate about building products that allow communities to share, connect, and create.
+          <p> Hello! I'm Asey, a Singapore-based software engineer. I'm passionate about building products that allow communities to share, connect, and create.
           </p>
           <h3>Skills</h3>
           <ul className="icons">
