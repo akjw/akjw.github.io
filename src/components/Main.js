@@ -74,6 +74,25 @@ class Main extends React.Component {
           <p>
             Built with ReactJs, Node.js, Express and MongoDB
           </p>
+          <ul className="icons">
+            <li>
+                <a
+                  href="https://streamlinersg.herokuapp.com/"
+                  className="icon fa-desktop"
+                >
+                  <span className="label">Demo</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/akjw/Streamliner"
+                  className="icon fa-code"
+                >
+                  <span className="label">Source Code</span>
+                </a>
+              </li>
+          </ul>
+         
           <h3><a href="https://lunchbuddysg.herokuapp.com/">Lunch Buddy</a></h3>
           <span className="image main">
             <img src={pic03} alt="" />
@@ -84,6 +103,24 @@ class Main extends React.Component {
           <p>
             Built with Ruby on Rails, postgreSQL, AWS S3 and using Google Maps API.
           </p>
+          <ul className="icons">
+            <li>
+                <a
+                  href="https://lunchbuddysg.herokuapp.com/"
+                  className="icon fa-desktop"
+                >
+                  <span className="label">Demo</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/akjw/lunch-buddy"
+                  className="icon fa-code"
+                >
+                  <span className="label">Source Code</span>
+                </a>
+              </li>
+          </ul>
           <h3><a href="https://wrimo.herokuapp.com/">WriMo</a></h3>
           <span className="image main">
             <img src={pic04} alt="" />
@@ -94,6 +131,24 @@ class Main extends React.Component {
           <p>
             Built with Node.js, Express, jQuery, MongoDB and socket.io.
           </p>
+          <ul className="icons">
+            <li>
+                <a
+                  href="https://wrimo.herokuapp.com/"
+                  className="icon fa-desktop"
+                >
+                  <span className="label">Demo</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/akjw/WriMo"
+                  className="icon fa-code"
+                >
+                  <span className="label">Source Code</span>
+                </a>
+              </li>
+          </ul>
           <h3><a href="https://akjw.github.io/Slime-Farm/">Slime Farm</a></h3>
           <span className="image main">
             <img src={pic01} alt="" />
@@ -104,6 +159,24 @@ class Main extends React.Component {
           <p>
             Built with Javascript, HTML, and CSS.
           </p>
+          <ul className="icons">
+            <li>
+                <a
+                  href="https://akjw.github.io/Slime-Farm/"
+                  className="icon fa-desktop"
+                >
+                  <span className="label">Demo</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/akjw/Slime-Farm"
+                  className="icon fa-code"
+                >
+                  <span className="label">Source Code</span>
+                </a>
+              </li>
+          </ul>
           {close}
         </article>
 
